@@ -1,8 +1,9 @@
+
 /**
  * TinyMCE 3.x
  */
 table.mceLayout {
-	clear: left;
+  clear: left;
 }
 
 /**
@@ -10,14 +11,14 @@ table.mceLayout {
  * rows if required.
  */
 .mceToolbar td {
-	display: inline;
+  display: inline;
 }
-
-.mceToolbar a,.mceSeparator {
-	float: left;
+.mceToolbar a,
+.mceSeparator {
+  float: left;
 }
-
-.mceListBox,.mceSplitButton {
-	float: left;
-	margin-bottom: 1px;
+.mceListBox,
+.mceSplitButton {
+  float: left;
+  margin-bottom: 1px;
 }
