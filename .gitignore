@@ -35,3 +35,9 @@ xmlrpc.php
 /profiles
 /scripts
 /themes
+
+
+#Ignore Eclipse stuff
+.buildpath
+.project
+/.settings
