@@ -236,8 +236,8 @@ div#logo a {
 /* Navigation */ 
 div#nav {
   background: url(/sites/all/themes/sline/images/page/top-raster.png) top left no-repeat;
-  padding: 65px 0 0 55px;
-  width: 665px;
+  padding: 65px 0 0 25px;
+  width: 695px;
   float: left;
 }
 div#nav .section {
