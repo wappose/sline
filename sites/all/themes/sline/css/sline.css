@@ -385,7 +385,6 @@ div#nav ul.menu li.active-trail a {
 }
 /* END Footer */
 
-
 /* FLAG Positions */
 #header .region {
 	position: relative;
@@ -544,4 +543,9 @@ table.views-view-grid div.views-field-field-photo {
 
 .page-node-33 .view-content {
 	line-height: 12px;
+}
+
+.view--terf-rs-ljare {
+	font-weight: bold;
+	font-size: 14px;
 }
