@@ -41,3 +41,8 @@ xmlrpc.php
 .buildpath
 .project
 /.settings
+
+# Mac crap
+.DS_Store
+
+.DS_Store
