@@ -144,8 +144,6 @@ function STARTERKIT_preprocess_block(&$variables, $hook) {
   $variables['classes_array'][] = 'count-' . $variables['block_id'];
 }
 // */
-
-
 function sline_breadcrumb($breadcrumb) {
 	$output = "";
 	$title = drupal_get_title ();

@@ -67,6 +67,7 @@ stylesheets-conditional[lte IE 6][all][]  = css/ie6.css
 
 scripts[] = js/jquery-1.6.4.min.js
 scripts[] = js/scripts.js
+scripts[] = js/slideshow.js
 
 ; The regions defined in Zen's default page.tpl.php file.  The name in
 ; brackets is the name of the region in the $page variable in the page.tpl.php

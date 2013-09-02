@@ -114,3 +114,26 @@ function initSlideshow() {
         timeOut = setTimeout(gotoNext, rotationduration);
     }
 }
+
+$(document).ready(function(){
+
+	$('#header #block-block-4').click(function(){
+		$(this).toggleClass('active');
+		
+		$('.#header #block-search-form').slideToggle(200);
+	});
+	
+	var buttons = "#page-wrapper #main-wrapper .content .node-product .field-name-field-spec h2, #page-wrapper #main-wrapper .content .node-product .field-name-field-file h2, #page-wrapper #main-wrapper .content .node-product .field-name-field-image-extra h2";
+		
+	$(buttons).click(function(){
+		var $this = $(this);
+		
+		
+		$this
+		.toggleClass('active')
+			.siblings('.field-items')
+			.slideToggle(400);
+	});
+	
+	$('#page-wrapper #main-wrapper .content .node-product .field-name-field-image-extra h2').trigger('click');
+});
