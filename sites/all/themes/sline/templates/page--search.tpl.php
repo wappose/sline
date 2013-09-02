@@ -88,20 +88,12 @@ $img = field_get_items('node', $node, 'field_image');
   <div id="main-wrapper" <?php if(count($maincsslst) > 0) echo "class=\"". implode (" ", $maincsslst) ."\""; ?>><div id="main" class="clearfix<?php if ($main_menu || $page['navigation']) { print ' with-navigation'; } ?>">
 
     <div id="content" class="column"><div class="section">
-		<?php if($img) { 
-				print render($title_prefix); 
-		?>
-		
       <a id="main-content"></a>
-      <?php print render($title_suffix); }?>
       <?php print render($page['content']); ?>
-		<?php if ($title): ?>
-			<h1 class="title" <?php if(!$is_login_page) { ?>id="page-title" <?php } ?>><?php print $title; ?></h1>
-		<?php endif; ?>
-      <?php if($node->type=='article' && $node->nid!=2 && $node->nid!=4) print "<p style=\"margin-bottom: 20px;\"><a href=\"javascript:history.back()\"> &laquo Tillbaka </p>"; ?>
       <?php print $messages; ?>
       <?php //print $feed_icons; ?>
     </div></div><!-- /.section, /#content -->
+
   </div></div><!-- /#main, /#main-wrapper -->
 
   <?php include path_to_theme () . '/templates/inc.footer.php'; ?>
