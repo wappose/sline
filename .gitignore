@@ -42,5 +42,5 @@ xmlrpc.php
 .project
 /.settings
 
-
+# Mac crap
 .DS_Store
