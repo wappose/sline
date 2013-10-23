@@ -860,7 +860,7 @@ table.views-view-grid div.views-field-field-photo {
 	width: 134px;
 	height: 88px;
 	position: absolute;
-	bottom: 45px;
+	bottom: -200px;
 	right: 0;
 	z-index: 2;
 	cursor: pointer;
@@ -916,13 +916,18 @@ table.views-view-grid div.views-field-field-photo {
 			display: block;
 		} 
 
+#block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .views-row-1 .views-field-field-image{
+	bottom: 225px;
+}
+
 #block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .views-row-2 .views-field-field-image{
 	bottom: 135px;
 }
 
 #block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .views-row-3 .views-field-field-image{
-	bottom: 225px;
+	bottom: 45px;
 }
+
 
 #block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .index-slider-nav{
 	position: absolute;
@@ -1027,6 +1032,34 @@ table.views-view-grid div.views-field-field-photo {
     font-size: 14px;
     margin-top: 10px;
     margin-bottom: 5px;
+}
+
+
+/**
+ * headern
+ */
+#block-block-5 {
+    float: right;
+    width: 60px;
+	padding-top: 15px;
+}
+#block-block-5 h2.block-title {
+    font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+#block-block-5 .content {
+	padding: 0;
+	margin: 0;
+}
+#block-block-5 .content p {
+	font-size: 10px;
+	padding: 0;
+	margin: 0;
+	line-height: normal;
+}
+.i18n-en #block-block-5 {
+    width: 75px;
 }
 
 
