@@ -88,7 +88,7 @@ function STARTERKIT_preprocess_html(&$variables, $hook) {
 function sline_preprocess_page(&$variables, $hook) {
 	//  $variables['sample_variable'] = t('Lorem ipsum.');
 	//  JOHAN TESTAR
-	print_r($variables['theme_hook_suggestions']);
+	// print_r($variables['theme_hook_suggestions']);
 	if (isset ( $variables ['node'] )) {
 		$variables ['theme_hook_suggestions'] [] = "page__type__" . $variables ['node']->type;
 		$variables ['theme_hook_suggestions'] [] = "page__node__" . $variables ['node']->nid;
