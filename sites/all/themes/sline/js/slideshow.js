@@ -52,7 +52,7 @@ $(document).ready(function(){
 		$('#block-views-tumnaglar-startsidan-block .views-field-field-image.active').eq(currActive+1).trigger('click');
 		
 		if(dataVal == "next"){
-			if(currActive == 2){
+			if(currActive == 4){
 				$('#block-views-tumnaglar-startsidan-block .views-field-field-image').eq(0).addClass('active').trigger('click');
 			} else {
 				$('#block-views-tumnaglar-startsidan-block .views-field-field-image').eq(currActive+1).trigger('click');

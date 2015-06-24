@@ -17,7 +17,7 @@ html{
 }
 
 body, td {
-	font-family: Helvetica, Arial;	
+	font-family: Helvetica, Arial;
 	font-size: 11px;
 	background: #f8f9fa;
 }
@@ -28,7 +28,7 @@ body, td {
 }
 
 h1,h2,h3,h4,h5 {
-	font-family: Helvetica, Arial;	
+	font-family: Helvetica, Arial;
 	font-weight: bold;
 }
 h1 {
@@ -55,20 +55,20 @@ h1#page-title {
 	max-width: 500px;
 	padding: 20px;
 	display: inline-block;
-	background: url('../images/page/white-trans.png') top left;	
+	background: url('../images/page/white-trans.png') top left;
 	position: absolute;
 	top: 150px;
 	left: 30px;
 	z-index: 60;
 	color: #000;
-	font-family: HelveticaNeueLTStd57Condensed, Helvetica, Arial;	
+	font-family: HelveticaNeueLTStd57Condensed, Helvetica, Arial;
 }
 
 .product-page h1#page-title {
 	top: 230px;
 }
 
-.wide-page h1#page-title {	
+.wide-page h1#page-title {
 	position: static;
 	color: black;
 	font-size: 26px;
@@ -118,12 +118,12 @@ font-weight: bolder;
 }
 #main-wrapper .content .links {
 	display:none;
-} 
+}
 #header {
 	margin-bottom: 1px;
 }
 #page-title {
-	
+
 }
 #page-wrapper #main-wrapper #main #content {
 	margin: 0;
@@ -174,7 +174,7 @@ font-weight: bolder;
 	background: #fff;
 	float: right;
 }
-	
+
 	#page-wrapper #main-wrapper .content .node-product .field-name-field-spec h2,
 	#page-wrapper #main-wrapper .content .node-product .field-name-field-file h2,
 	#page-wrapper #main-wrapper .content .node-product .field-name-field-image-extra h2{
@@ -185,7 +185,7 @@ font-weight: bolder;
 		font: normal 16px 'helvetica', 'sans-serif';
 		cursor: pointer;
 	}
-	
+
 	#page-wrapper #main-wrapper .content .node-product .field-name-field-spec h2.active,
 	#page-wrapper #main-wrapper .content .node-product .field-name-field-file h2.active,
 	#page-wrapper #main-wrapper .content .node-product .field-name-field-image-extra h2.active{
@@ -217,7 +217,7 @@ font-weight: bolder;
 		float: none;
 		border-bottom: 1px solid #e2e2e2;
 	}
-	
+
 		#page-wrapper #main-wrapper .content .field-name-field-file .field-items ul li a {
 			display: block;
 			color: black;
@@ -268,7 +268,7 @@ font-weight: bolder;
 }
 .image-raster  {
 	position: absolute;
-	right: 0; 
+	right: 0;
 	bottom: -1px;
 	background: url(../images/page/image-raster.png) bottom left no-repeat;
 	z-index: 50;
@@ -296,7 +296,7 @@ font-weight: bolder;
 	.image-raster a.prev:hover{
 		background: url(../images/page/next-prev.jpg) 0 -44px no-repeat;
 	}
-	
+
 .image-raster a.next {
 	height: 44px;
 	width: 44px;
@@ -324,7 +324,7 @@ font-weight: bolder;
 
 
 
-/* Navigation */ 
+/* Navigation */
 .block-menu-block .content ul li{
 	list-style: none;
 }
@@ -340,16 +340,16 @@ font-weight: bolder;
 	 #block-menu-block-1 .content a {
 		height: 41px;
 		display: inline-block;
-		padding: 25px 20px 0;
+		padding: 25px 17px 0;
 		border-right: 1px solid #fff;
 		font: normal 16px 'HelveticaNeueLTStd57Condensed', 'myriad pro', 'helvetica', 'arial', 'sans-serif';
 		color: #000;
 	}
-		
+
 		#block-menu-block-1 .content a:hover{
 			text-decoration: none;
 		}
-			
+
 		 #block-menu-block-1 li.active a,
 		 #block-menu-block-1 li.active-trail a{
 			height: 42px;
@@ -357,7 +357,7 @@ font-weight: bolder;
 			background: #b2be3e;
 			border-bottom: 1px solid #b2be3e;
 		}
-	
+
 
 	 #block-menu-block-2{
 		height: 35px;
@@ -367,7 +367,7 @@ font-weight: bolder;
 		margin: 0;
 		padding: 13px 0 0 0;
 	}
-	
+
 		 #block-menu-block-2 .content a{
 			height: 24px;
 			padding: 0 20px;
@@ -378,16 +378,16 @@ font-weight: bolder;
 			font: normal 14px 'HelveticaNeueLTStd57Condensed', 'myriad pro', 'helvetica', 'arial', 'sans-serif';
 			letter-spacing: 1px;
 		}
-		
+
 		#block-menu-block-2 li.active a{
 			color: #20220b;
 		}
-		
+
 		 #block-menu-block-2 li.first a{
 			border-left: none;
 		}
 
-/* END Navigation */ 
+/* END Navigation */
 
 /* Language module */
 #block-locale-language{
@@ -411,11 +411,11 @@ font-weight: bolder;
 			text-align: center;
 			text-indent: -5000px;
 		}
-		
+
 		#block-locale-language .content ul li.sv a{
 			background: url('../images/page/flag-sv.png') top center no-repeat;
 		}
-		
+
 		#block-locale-language .content ul li.en a{
 			background: url('../images/page/flag-en.png') top center no-repeat;
 		}
@@ -433,13 +433,13 @@ font-weight: bolder;
 	#header #block-block-4.active{
 		background: #b2be3e url(../images/page/search-icon.png) center center no-repeat;
 	}
-	
+
 	#header #block-block-4 .content{
 		display: none;
 	}
 
 #header #block-search-form {
-	display: none;	
+	display: none;
 	overflow: hidden;
 	clear: both;
 	background: #b2be3e;
@@ -459,7 +459,7 @@ font-weight: bolder;
 		display: block;
 		float: right;
 	}
-	
+
 #header #block-search-form .content form #edit-submit,
 #header #block-search-form .content form #edit-submit--2{
 	width: 24px;
@@ -492,7 +492,7 @@ font-weight: bolder;
 	#main-wrapper #block-views-aktuellt-block .content ul,
 	#main-wrapper #block-views-aktuellt-block-2 .content ul {
 		list-style: none;
-		margin: 0; 
+		margin: 0;
 		padding:0;
 	}
 		#main-wrapper #block-views-aktuellt-block .content ul li,
@@ -508,17 +508,17 @@ font-weight: bolder;
 			margin: 0 0 0 20px;
 			padding: 0 0 70px 0;
 		}
-		
+
 		#main-wrapper #block-views-aktuellt-block .content ul li .views-field-body,
 		#main-wrapper #block-views-aktuellt-block-2 .content ul li .views-field-body{
 			padding: 0 20px;
 		}
-		
+
 			#main-wrapper #block-views-aktuellt-block .content ul li .views-field-body h2,
 			#main-wrapper #block-views-aktuellt-block-2 .content ul li .views-field-body h2{
 				display: none;
 			}
-		
+
 		#main-wrapper #block-views-aktuellt-block .content ul li.views-row-3,
 		#main-wrapper #block-views-aktuellt-block-2 .content ul li.views-row-3 {
 			padding-right: 0;
@@ -529,7 +529,7 @@ font-weight: bolder;
 		}
 		#main-wrapper #block-views-aktuellt-block .content ul li h2,
 		#main-wrapper #block-views-aktuellt-block-2 .content ul li h2 {
-			padding: 0; 
+			padding: 0;
 			margin: 20px 0 10px 0;
 			font-size: 20px;
 			font-weight: normal;
@@ -543,7 +543,7 @@ font-weight: bolder;
 			text-decoration: none;
 			line-height: 25px;
 		}
-		
+
 		#main-wrapper .content ul li .views-field-view-node a {
 			position: absolute;
 			bottom: 0;
@@ -555,7 +555,7 @@ font-weight: bolder;
 			margin: 20px 0 20px 20px;
 			font: bold 14px 'HelveticaNeueLTStd57Condensed',  Helvetica, Arial;
 		}
-		
+
 			#main-wrapper .content ul li .views-field-view-node a:hover{
 				text-decoration: none;
 				border-bottom: 1px solid #9ba536;
@@ -580,7 +580,7 @@ font-weight: bolder;
 #footer a {
 	color: #666666;
 	font-size: 10px;
-	font-family: 'HelveticaNeueLTStd57Condensed',  Helvetica, Arial;	
+	font-family: 'HelveticaNeueLTStd57Condensed',  Helvetica, Arial;
 }
 #footer .breadcrumbs {
 	list-style: none;
@@ -642,7 +642,7 @@ font-weight: bolder;
 		#header ul.menu{
 			display: block;
 		}
-		
+
 			 ul li{
 				float: left;
 			}
@@ -667,7 +667,7 @@ font-weight: bolder;
 	display: block;
 	height: 11px;
 	width: 16px;
-	margin: 3px; 
+	margin: 3px;
 }
 #header .region #block-locale-language .content li.sv a {
 	background: url(../images/page/flag-sv.png) center center no-repeat;
@@ -704,7 +704,7 @@ font-weight: bolder;
 	font-size: 16px;
 	font-family: HelveticaNeueLTStd57Condensed, Helvetica, Arial;
 }
-	
+
 /* END FLAG position */
 
 
@@ -712,8 +712,8 @@ font-weight: bolder;
 /*Drupal Editor links redesigned */
 #editorLinks {
 	z-index:120;
-	position:fixed; 
-	right: 6px; 
+	position:fixed;
+	right: 6px;
 	top: 105px;
 	width: 150px;
 }
@@ -805,7 +805,7 @@ table.views-view-grid div.views-field-field-photo {
 
 #main-wrapper .content ul li {	list-style-type: disc;
 	padding: 0px 0px 5px 0px;
-	
+
 }
 
 .page-node-33 .view-content {
@@ -842,12 +842,12 @@ table.views-view-grid div.views-field-field-photo {
 		#block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .views-row-1 .views-field-field-image-1{
 			display: block;
 		}
-		
-		#block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .views-field-field-image-1 .big-img-text h2 {		
+
+		#block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .views-field-field-image-1 .big-img-text h2 {
 			max-width: 520px;
 			padding: 20px;
 			display: inline-block;
-			background: url('../images/page/white-trans.png') top left;	
+			background: url('../images/page/white-trans.png') top left;
 			position: absolute;
 			bottom: 30px;
 			left: 30px;
@@ -860,19 +860,19 @@ table.views-view-grid div.views-field-field-photo {
 	width: 134px;
 	height: 88px;
 	position: absolute;
-	bottom: 45px;
+	bottom: -200px;
 	right: 0;
 	z-index: 2;
 	cursor: pointer;
 	border: 1px solid #fff;
 	background: #000;
 }
-	
-			
+
+
 	#block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .views-field-field-image img{
 		opacity: .5;
 	}
-	
+
 	#block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .views-field-field-image.active img{
 		opacity: 1;
 	}
@@ -881,7 +881,7 @@ table.views-view-grid div.views-field-field-photo {
 	#block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .views-field-field-image img{
 		height: 88px;
 	}
-	
+
 		#block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .views-field-field-image .big-img-text{
 			min-width: 450px;
 			text-align: right;
@@ -892,7 +892,7 @@ table.views-view-grid div.views-field-field-photo {
 			display: none;
 			z-index: 3;
 		}
-		
+
 		#block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .views-field-field-image .big-img-text p{
 			background: #fff;
 			padding: 8px 10px;
@@ -902,7 +902,7 @@ table.views-view-grid div.views-field-field-photo {
 			border: 1px solid #e3e4e5;
 			border-right: none;
 		}
-		
+
 		#block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .views-field-field-image .big-img-text .arrow{
 			width: 8px;
 			height: 16px;
@@ -911,18 +911,23 @@ table.views-view-grid div.views-field-field-photo {
 			top: 28%;
 			background: url('../images/popup-arrow.png') top left no-repeat;
 		}
-		
+
 		#block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .views-field-field-image:hover .big-img-text{
 			display: block;
-		} 
+		}
+
+#block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .views-row-1 .views-field-field-image{
+	bottom: 225px;
+}
 
 #block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .views-row-2 .views-field-field-image{
 	bottom: 135px;
 }
 
 #block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .views-row-3 .views-field-field-image{
-	bottom: 225px;
+	bottom: 45px;
 }
+
 
 #block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .index-slider-nav{
 	position: absolute;
@@ -943,11 +948,11 @@ table.views-view-grid div.views-field-field-photo {
 		width: 45px;
 		background: url('../images/page/next-prev.jpg') 0 0 no-repeat;
 	}
-	
+
 		#block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .index-slider-nav .prev:hover{
 			background: url('../images/page/next-prev.jpg') 0 -44px no-repeat;
 		}
-	
+
 	#block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .index-slider-nav .next{
 		position: absolute;
 		bottom: 0;
@@ -956,7 +961,7 @@ table.views-view-grid div.views-field-field-photo {
 		width: 45px;
 		background: url('../images/page/next-prev.jpg') -44px -44px no-repeat;
 	}
-		
+
 		#block-views-tumnaglar-startsidan-block .view-tumnaglar-startsidan .index-slider-nav .next:hover{
 			background: url('../images/page/next-prev.jpg') -44px 0 no-repeat;
 		}
@@ -1012,7 +1017,7 @@ table.views-view-grid div.views-field-field-photo {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    
+
 }
 #main-wrapper .view--terf-rs-ljare .item-list ul li {
     list-style-type: none;
@@ -1027,6 +1032,34 @@ table.views-view-grid div.views-field-field-photo {
     font-size: 14px;
     margin-top: 10px;
     margin-bottom: 5px;
+}
+
+
+/**
+ * headern
+ */
+#block-block-5 {
+    float: right;
+    width: 60px;
+	padding-top: 15px;
+}
+#block-block-5 h2.block-title {
+    font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+#block-block-5 .content {
+	padding: 0;
+	margin: 0;
+}
+#block-block-5 .content p {
+	font-size: 10px;
+	padding: 0;
+	margin: 0;
+	line-height: normal;
+}
+.i18n-en #block-block-5 {
+    width: 75px;
 }
 
 
