@@ -423,6 +423,9 @@ font-weight: bolder;
 		#block-locale-language .content ul li.en a{
 			background: url('../images/page/flag-en.png') top center no-repeat;
 		}
+		#block-locale-language .content ul li span.locale-untranslated {
+			display: none;
+		}
 
 /* Search form */
 #header #block-block-4{
